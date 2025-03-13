@@ -1,0 +1,28 @@
+body{
+    background-color:#ca3e6a;
+    
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 5px;
+    height: 100vh;
+}
+
+.box{
+    background: radial-gradient(circle, #109093 0%, #e95d89 100%);
+    border: 3px solid #767676;;
+    border-radius: 8px;
+    font-size: 50px;
+    font-weight: 400;
+    font-family:  system-ui, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    color:#ca3e6a; 
+     
+}
+
+
